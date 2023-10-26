@@ -20,3 +20,13 @@ intellij idea либо любой другой софт поддерживающ
 ● Запустить программу 
 
 ● Посмотреть результат в файле output.txt расположенный по пути: src/main/resources/output.txt
+## Тесты
+1) L1 = {aa,bb,cc}
+   L2 = {gc,ch}
+   L1L2 = {aagc,aach,bbgc,bbch,ccgc,ccch}
+2) L1 = {bb,cc,λ}
+   L2 = {gc,ch}
+   L1L2 = {bbgc,bbch,ccgc,ccch,gc,ch}
+3) L1 = {λ}
+   L2 = {λ}
+   L1L2 = {λ}
