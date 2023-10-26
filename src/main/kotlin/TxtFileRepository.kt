@@ -26,7 +26,7 @@ class TxtFileRepository {
 
     fun writeConcatenate(l1l2:List<String>){
         BufferedWriter(FileWriter(FILE_OUTPUT_NAME)).use { output->
-            output.write("L2 = {")
+            output.write("L1L2 = {")
             for (s in l1l2){
                 if (s!=l1l2.last())
                     output.write("$s,")
